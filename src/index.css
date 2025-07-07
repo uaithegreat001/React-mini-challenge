@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;;
+
+}
+body {
+  background-color:#EBF2F6;
+
+}
+header {
+  text-transform: uppercase;
+  color: red;
+  font-family: "Pacifico", cursive;
+  font-size:0.8rem;
+  color: #222222;
+  margin:3rem;
+  
+
+}
+.todo {
+  max-width: 700px;
+  margin:0 auto;
+}
+.todo-input  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+  
+}
+.todo-input input, button {
+  outline: none;
+  border: 1px solid #FC6756;
+  padding:1rem;
+  border-radius: 6px;
+  font-size:0.9rem;
+
+
+}
+.todo-input input {
+  width: 100%;
+
+}
+button {
+  width: 40%;
+  background-color: #FC6756;
+  font-weight: 600;
+  color: #EBF2F6;
+  cursor: pointer;
+}
+
+.no-item {
+  text-align: center;
+  color: rgb(120, 121, 121, 0.8);
+}
+
+
+.todo-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 6px;
+  border:1px solid rgb(120, 121, 121, 0.4);
+}
+
+.todo-item span {
+  flex: 1;
+  
+}
+.delete-todo {
+  cursor: pointer;
+}
+
